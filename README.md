@@ -52,8 +52,8 @@ glibc 2.31 so they run on HiveOS and mmpOS images.
 Per attempt: SHA-512, try-and-increment hash-to-curve (one field exponentiation per try),
 a 254-bit scalar multiplication on Ed25519, cofactor ×8, compression (one inversion),
 SHA-512. See `PLATFORMS.md` for the measured variants and why each exists.
-Reference points (the same binary, platform defaults): RTX 5080 ≈ 42.5 MH/s, RTX 3070
-≈ 16.25 MH/s, CMP 170HX ≈ 11.75 MH/s, one CPU core of the reference Rust seeker ≈ 37 kH/s.
+Reference points (the same binary, platform defaults): RTX 5090 ≈ 60.25 MH/s, 4090 ≈ 50.25 MH/s,
+RTX 5080 ≈ 42.5 MH/s, RTX 3070 ≈ 16.25 MH/s, CMP 170HX ≈ 11.75 MH/s, one CPU core of the reference Rust seeker ≈ 37 kH/s.
 
 ## Layout
 
